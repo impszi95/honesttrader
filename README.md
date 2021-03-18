@@ -15,14 +15,16 @@
 
 ## Use
 REST: <br>
-  **Security**
+  &nbsp;&nbsp;**Security**
 * POST localhost:8080/securities/create <br>
-    "name" : "WSB" --> creates a Security called WSB <br>
+    {"name" : "WSB"} --> creates a Security called WSB <br>
 * GET localhost:8080/securities <br>
     --> returns all available securities <br><br>
 **User**
 * POST localhost:8080/users/register <br>
-    "username" : "Elon Musk" --> user register <br>
+    "username" : "Elon Musk"<br>
+    "password" : "technoKing" <br> 
+    --> user register <br>
 * GET localhost:8080/users <br>
     --> returns all user <br><br>
 **Order**

@@ -43,4 +43,4 @@ If order could fullfilled it would return all the completed trades.<br>
 * (H2 database for testing)
 
 ## Contact
-Created by Varga Bence - impszi95@gmail.com <br />
+Created by Bence Varga - impszi95@gmail.com <br />

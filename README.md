@@ -15,7 +15,7 @@
 
 ## Use
 REST: <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;**Security**
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Security**
 * POST localhost:8080/securities/create <br>
     {"name" : "WSB"} --> creates a Security called WSB <br>
 * GET localhost:8080/securities <br>

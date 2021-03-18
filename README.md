@@ -14,18 +14,18 @@
 * Run with java -jar target/honesttrader-0.0.1-SNAPSHOT.jar
 
 ## Use
-REST: <br><br>
-Security
+REST: <br>
+  **Security**
 * POST localhost:8080/securities/create <br>
     "name" : "WSB" --> creates a Security called WSB <br>
 * GET localhost:8080/securities <br>
     --> returns all available securities <br><br>
-User
+**User**
 * POST localhost:8080/users/register <br>
     "username" : "Elon Musk" --> user register <br>
 * GET localhost:8080/users <br>
     --> returns all user <br><br>
-Order
+**Order**
 * POST localhost:8080/orders/create <br>
         "securityId" : 1,<br>
 	"userId" : 1,<br>
@@ -33,7 +33,7 @@ Order
 	"price" : 90,<br>
 	"quantity" : 10<br>
     --> Puts a "SELL" or "BUY" order for a given security with a given price and quantity.<br>
-If order could fullfilled it would return all the completed trades.<br><br>
+If order could fullfilled it would return all the completed trades.<br>
 
 ## Technologies
 * Java 11, Spring Boot
